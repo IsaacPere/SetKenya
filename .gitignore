@@ -1,0 +1,7 @@
+.env.production
+.dockerignore
+.tf
+node_modules
+dev.Dockerfile
+dockerfile 
+bun.lock
