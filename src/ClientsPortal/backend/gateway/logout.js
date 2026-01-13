@@ -1,3 +1,5 @@
+import cookie from "cookie";
+
 const logout_from_application = (
   logout_service_request,
   logout_service_respond,
