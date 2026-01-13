@@ -1,6 +1,0 @@
-version: "5.1"
-
-#inlcuding or importing configuration files
-
-include:
--database.yaml
