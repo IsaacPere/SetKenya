@@ -10,6 +10,4 @@ const {
 clients_payment_router.get("/stkpush", render_payment_page);
 clients_payment_router.post("/stkpush", starting_stk_push);
 
-module.exports = {
-  clients_payment_router,
-};
+module.exports = clients_payment_router;

@@ -8,6 +8,4 @@ clients_router_details.get(
   },
 );
 
-module.exports = {
-  clients_router_details,
-};
+module.exports = clients_router_details;
