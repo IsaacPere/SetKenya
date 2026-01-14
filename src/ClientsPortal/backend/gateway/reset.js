@@ -1,4 +1,4 @@
-import crypto from "crypto";
+const crypto = require("crypto");
 
 const forgot_password_details = async (
   forgot_password_request,

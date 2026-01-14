@@ -1,4 +1,4 @@
-import bcrypt from "bcryptjs";
+const bcrypt = require("bcryptjs");
 
 const sign_up_details = async (
   registration_details_request,

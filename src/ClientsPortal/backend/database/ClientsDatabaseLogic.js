@@ -1,4 +1,4 @@
-import clients_database_details from "./ClientsDatabase";
+const clients_database_details = require("./ClientsDatabase");
 
 const checking_username_information = async (username) => {
   const clients_database_query = `SELECT * FROM clients WHERE username = '${username}' LIMIT 1`;

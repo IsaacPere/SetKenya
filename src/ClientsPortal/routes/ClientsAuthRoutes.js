@@ -2,10 +2,10 @@ const clients_gateways_technlogies = require("express");
 
 const clients_gateways_router = clients_gateways_technlogies.Router();
 
-const clients_login_details = require("../gateway/login");
-const clients_register_details = require("../gateway/signup");
-const clients_logout_details = require("../gateway/logout");
-const forgot_password_details = require("../gateway/reset");
+const clients_login_details = require("../backend/gateway/login");
+const clients_register_details = require("../backend/gateway/signup");
+const clients_logout_details = require("../backend/gateway/logout");
+const forgot_password_details = require("../backend/gateway/reset");
 
 clients_gateways_router.get(
   "/login",

@@ -1,4 +1,4 @@
-import cookie from "cookie";
+const cookie = require("cookie");
 
 const logout_from_application = (
   logout_service_request,

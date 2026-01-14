@@ -1,4 +1,4 @@
-import Pool from "pg";
+const { Pool } = require("pg");
 
 const clients_database_details = new Pool({
   user: process.env.POSTGRES_USERNAME_DETAILS,

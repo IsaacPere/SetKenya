@@ -1,5 +1,7 @@
-import bcrypt from "bcryptjs";
-import { checking_username_information } from "../database/ClientsDatabaseLogic";
+const bcrypt = require("bcryptjs");
+const {
+  checking_username_information,
+} = require("../database/ClientsDatabaseLogic");
 
 const login_details = async (login_details_request, login_details_respond) => {
   try {
