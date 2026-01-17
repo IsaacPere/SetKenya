@@ -3,7 +3,7 @@
 .tf
 node_modules
 dev.Dockerfile
-Dockerfile
+.Dockerfile
 bun.lock
 docker-compose.yaml
 Compose
