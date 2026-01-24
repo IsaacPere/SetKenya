@@ -4,13 +4,13 @@
     "axios": "^1.13.2",
     "bcryptjs": "^3.0.3",
     "cookie-parser": "^1.4.7",
-    "cors": "^2.8.5",
+    "cors": "^2.8.6",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "flowbite": "^4.0.1",
     "hbs": "^4.2.0",
     "node-fetch": "^3.3.2",
-    "pg": "^8.17.1",
+    "pg": "^8.17.2",
     "tailwindcss": "^4.1.18"
   },
   "devDependencies": {
