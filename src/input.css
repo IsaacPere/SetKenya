@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 /*bunx tailwindcss -i ./src/input.css -o ./src/public/output.css --watch*/
 /*create tailwind configuration outside src*/
