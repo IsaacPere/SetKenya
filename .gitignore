@@ -6,4 +6,3 @@ dev.Dockerfile
 .Dockerfile
 bun.lock
 docker-compose.yaml
-Compose
